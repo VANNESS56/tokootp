@@ -27,7 +27,11 @@ export default function LoginPage() {
       if (error) {
         toast.error(error.message);
       } else {
-        toast.success("Login berhasil!");
+        await Swal.fire({
+          title: "Berhasil Login",
+          icon: "success",
+          draggable: false
+        });
         router.push("/member");
       }
     } catch {

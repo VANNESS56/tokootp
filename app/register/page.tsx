@@ -179,7 +179,7 @@ export default function RegisterPage() {
               className="w-4.5 h-4.5 rounded border-[#cbd5e1] text-[#3478f6] focus:ring-[#3478f6] accent-[#3478f6]"
             />
             <span className="text-[12px] text-[#8696a7] font-medium">
-              I agree to <span className="text-[#3478f6] font-bold">privacy policy & terms</span>
+              I agree to <span className="text-[#3478f6] font-bold">privacy policy &amp; terms</span>
             </span>
           </label>
 
